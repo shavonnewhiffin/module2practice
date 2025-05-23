@@ -190,6 +190,7 @@ align-items: center;
 .row {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .home__description {
@@ -239,7 +240,7 @@ footer {
     padding: 48px 24px;
 }
 
-footer___logo {
+footer__logo {
     max-width: 360px;
 }
 
