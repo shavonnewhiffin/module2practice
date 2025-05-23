@@ -143,7 +143,7 @@ form {
     max-width: 600px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 24px;
 
 }
 
@@ -213,6 +213,44 @@ h1 {
     font-size: 28px;
 }
 
+ul {
+    display: none;
+}
+
+.section__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__description--wrapper{
+    width: 100%;
+
+}
+
+.about__img--wrapper{
+    width: 100%;
+}
+
+#discord .section__description {
+    flex-direction: column-reverse;
+}
+
+footer {
+    padding: 48px 24px;
+}
+
+footer___logo {
+    max-width: 360px;
+}
+
+.footer___link{
+    padding: 0 4px;
+    font-size: 18px;
+}
+
+.footer___links {
+    margin-bottom: 24px;
+}
 }
 
 
